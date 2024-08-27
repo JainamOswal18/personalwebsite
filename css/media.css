@@ -1,0 +1,56 @@
+@media (min-width: 415px) {
+  nav a{
+    color: #45b29a !important;
+  }
+  #uparwalapage nav button#navmenu {
+    display: none;
+  }
+}
+@media (max-width: 415px) {
+  #uparwalapage {
+    position: relative;
+  }
+  #uparwalapage nav #navmenu {
+    display: block;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  #uparwalapage nav > ul#navlist {
+    display: none;
+  }
+  #midpage.popNavListOn {
+    filter: blur(10px);
+  }
+  #uparwalapage nav > ul#navlist.popNavlist {
+    z-index: 100;
+    width: 98vw;
+    max-width: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff95;
+    padding-block: 4rem;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  #uparwalapage nav > ul#navlist.popNavlist > li a {
+    font-size: 2rem;
+    font-weight: semibold;
+    color: #45b29a;
+  }
+  #uparwalapage nav > ul#navlist.popNavlist ul {
+    backdrop-filter:blur(5px)
+    z-index: 101;
+    background-color: #e0ebe898;
+    border:none;
+    outline:none;
+  }
+
+  #uparwalapage nav > ul#navlist.popNavlist ul li a {
+    color:black !important;
+  }
+}
