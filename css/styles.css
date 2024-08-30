@@ -1,221 +1,232 @@
 /* My Color Pallete : https: //colorhunt.co/palette/ffcfdffefdcae0f9b5a5dee5 */
 /* optional colour pallete : https: //colorhunt.co/palette/000000f72798f57d1febf400 */
 
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Brandon+Grotesque:wght@300&family=Helvetica+Neue:wght@300&family=Arial&family=Lucida+Grande&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap");
 
 /* Common For All */
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Brandon Grotesque', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Brandon Grotesque", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-a{
-    text-decoration: none;
-    padding: 10px;
-    font-family: Helvetica;
-    font-size: 125% !important;
-    
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 125% !important;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-.bada-1{
-    font-size: 5rem !important;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
+.bada-1 {
+  font-size: 5rem !important;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-.bada-2{
-    font-size: 5rem !important;
-    font-weight: 400;
-    font-style: normal;
-    font-family: cursive;
+.bada-2 {
+  font-size: 5rem !important;
+  font-weight: 400;
+  font-style: normal;
+  font-family: cursive;
 }
-.text-2{
-    font-family: "Open Sans", sans-serif !important;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+.text-2 {
+  font-family: "Open Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
-.text-3{
-    font-family: 'Glacial Indifference', sans-serif !important; 
+.text-3 {
+  font-family: "Glacial Indifference", sans-serif !important;
 }
-.text-4{
-    font-family: "Open Sans", sans-serif !important;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+.text-4 {
+  font-family: "Open Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
-.h1,.h2,.h3,.h4,.h5,.h6 {
-    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 500;
-    line-height: 1.1;
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
 }
-@media (max-width: 576px){
-    .text-2, h5{
-        font-size: 120% ;
-    }
+@media (max-width: 576px) {
+  .text-2,
+  h5 {
+    font-size: 120%;
+  }
 }
 
 /* Only For Index.html */
 
 .logo {
-    height: 60px;
-    width: 70px;
-    border-radius: 50%;
-    position: relative;
-    top: 25%;
-    left: 5%;
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+  top: 25%;
+  left: 5%;
 }
 span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-.programmer{
-    font-size: 150%;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+.programmer {
+  font-size: 150%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 .ekbox-1 {
-    margin-left: 20%;
-    width: 60%;
-    display: flex;
-    gap: 20px;
-
+  margin-left: 20%;
+  width: 60%;
+  display: flex;
+  gap: 20px;
 }
 .ekbox-2 {
-    margin-left: 20%;
-    width: 60%;
-    margin-top: 30px;
-    display: flex;
-    gap: 20px;
+  margin-left: 20%;
+  width: 60%;
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
 }
 .i {
-    height: 200px;
-    width: 200px;
-    float: left;
+  height: 200px;
+  width: 200px;
+  float: left;
 }
 .j {
-    height: 200px;
-    width: 200px;
-    float: right;
+  height: 200px;
+  width: 200px;
+  float: right;
 }
-@media (max-width: 768px){
-    .logo {
-        margin-left: -5px !important;
-    }
-    .ekbox-1 {
-        margin-left: 5%;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .ekbox-2 {
-        margin-left: 5%;
-        width: 90%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    #ossebhithodauarniche .container {
-        width: 90% !important;
-        margin: 5% !important;
-    }
-    .d-flex.justify-content-center.flex-wrap.align-items-center {
-        text-align: center;
-    }
-    .top{
-        text-align: justify !important;
-    }
-    a{
-        font-size: 100% !important;
-    }
-    .bada{
-        font-size: 3rem !important;
-    }
-    .text-2, h5{
-        font-size: 125% ;
-    }     
-    }
-@media (max-width: 992px){
-    .ekbox-1 {
-        margin-left: 5%;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .ekbox-2 {
-        margin-left: 5%;
-        width: 90%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    .text-2, h5{
-        font-size: 145% !important;
-    }   
+@media (max-width: 768px) {
+  .logo {
+    margin-left: -5px !important;
+  }
+  .ekbox-1 {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .ekbox-2 {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  #ossebhithodauarniche .container {
+    width: 90% !important;
+    margin: 5% !important;
+  }
+  .d-flex.justify-content-center.flex-wrap.align-items-center {
+    text-align: center;
+  }
+  .top {
+    text-align: justify !important;
+  }
+  a {
+    font-size: 100% !important;
+  }
+  .bada {
+    font-size: 3rem !important;
+  }
+  .text-2,
+  h5 {
+    font-size: 125%;
+  }
 }
-
+@media (max-width: 992px) {
+  .ekbox-1 {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .ekbox-2 {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .text-2,
+  h5 {
+    font-size: 145% !important;
+  }
+}
 
 /* Only For Work.html */
-
 
 /* Only For Contact.html */
 
 .r1 {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 .hatao {
-    border-right: 1px solid white;
+  border-right: 1px solid white;
 }
 .contact-form {
-    margin-top: 5vh;
-    background-color: #212529;
-    padding: 20px;
-    border-radius: 10px;
+  margin-top: 5vh;
+  background-color: #212529;
+  padding: 20px;
+  border-radius: 10px;
 }
 .contact-form h2 {
-    margin-bottom: 20px;
-    color: #333;
+  margin-bottom: 20px;
+  color: #333;
 }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 .contact-form textarea {
-    resize: none;
+  resize: none;
 }
 .contact-form input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .contact-form input[type="submit"]:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
-
-
 
 /* - - - - - - - - - - - - - - - - */
 
